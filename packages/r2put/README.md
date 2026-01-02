@@ -1,4 +1,4 @@
-# r2-upload
+# r2put
 
 A futuristic CLI tool for uploading files to Cloudflare R2 with animated progress bars and a polished terminal UI.
 
@@ -13,11 +13,11 @@ A futuristic CLI tool for uploading files to Cloudflare R2 with animated progres
 ## Installation
 
 ```bash
-npm install r2-upload
+npm install r2put
 # or
-pnpm add r2-upload
+pnpm add r2put
 # or
-yarn add r2-upload
+yarn add r2put
 ```
 
 ## Prerequisites
@@ -33,7 +33,7 @@ export R2_SECRET_ACCESS_KEY="your-secret-access-key"
 ## Usage
 
 ```bash
-r2-upload --file <path> --bucket <name> [options]
+r2put --file <path> --bucket <name> [options]
 ```
 
 ### Options
@@ -51,19 +51,19 @@ r2-upload --file <path> --bucket <name> [options]
 Upload a file with default object key:
 
 ```bash
-r2-upload --file ./data.bin --bucket production-v4
+r2put --file ./data.bin --bucket production-v4
 ```
 
 Upload with custom object key:
 
 ```bash
-r2-upload -f ./local-image.png -b assets -k images/hero.png
+r2put -f ./local-image.png -b assets -k images/hero.png
 ```
 
 Specify region for display:
 
 ```bash
-r2-upload --file ./backup.tar.gz --bucket backups --region ENAM
+r2put --file ./backup.tar.gz --bucket backups --region ENAM
 ```
 
 ## Output

@@ -46,7 +46,7 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
-  packages/r2-upload:
+  packages/r2put:
     dependencies:
       '@cfkit/r2':
         specifier: workspace:*

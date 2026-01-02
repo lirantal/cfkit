@@ -11,7 +11,7 @@ const HELP_TEXT = `
   Upload files to Cloudflare R2 with style.
 
   USAGE
-    $ r2-upload --file <path> --bucket <name> [options]
+    $ r2put --file <path> --bucket <name> [options]
 
   OPTIONS
     -f, --file     Path to file to upload (required)
@@ -26,7 +26,7 @@ const HELP_TEXT = `
     R2_SECRET_ACCESS_KEY    R2 Secret Access Key
 
   EXAMPLE
-    $ r2-upload --file ./data.bin --bucket production-v4
+    $ r2put --file ./data.bin --bucket production-v4
 `
 
 function showHelp(): void {

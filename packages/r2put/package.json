@@ -1,11 +1,11 @@
 {
-  "name": "r2-upload",
-  "version": "1.0.0",
+  "name": "r2put",
+  "version": "0.1.1",
   "description": "Futuristic CLI tool for uploading files to Cloudflare R2",
   "type": "module",
   "main": "./dist/cli.js",
   "bin": {
-    "r2-upload": "./dist/cli.js"
+    "r2put": "./dist/cli.js"
   },
   "files": [
     "dist",

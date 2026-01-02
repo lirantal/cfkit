@@ -1,10 +1,10 @@
-# r2-upload - Project Specification
+# r2put - Project Specification
 
 A futuristic command-line interface for uploading files to Cloudflare R2 object storage with animated progress visualization.
 
 ## Overview
 
-`r2-upload` is a TypeScript-based CLI tool that provides an elegant terminal user interface (TUI) for uploading files to Cloudflare R2. It leverages React Ink for rendering interactive components in the terminal, offering real-time progress tracking, animated feedback, and presigned URL generation.
+`r2put` is a TypeScript-based CLI tool that provides an elegant terminal user interface (TUI) for uploading files to Cloudflare R2. It leverages React Ink for rendering interactive components in the terminal, offering real-time progress tracking, animated feedback, and presigned URL generation.
 
 ## Tech Stack
 
@@ -74,7 +74,7 @@ A futuristic command-line interface for uploading files to Cloudflare R2 object 
 ## Directory Structure
 
 ```
-packages/r2-upload/
+packages/r2put/
 ├── dist/                   # Compiled output
 │   ├── cli.js              # Bundled CLI with shebang
 │   ├── cli.js.map          # Source map
@@ -125,7 +125,7 @@ packages/r2-upload/
 ### Command-Line Interface
 
 ```bash
-r2-upload --file <path> --bucket <name> [options]
+r2put --file <path> --bucket <name> [options]
 
 Options:
   -f, --file     Path to file to upload (required)
