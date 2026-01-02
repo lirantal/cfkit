@@ -403,6 +403,10 @@ For direct client uploads, configure your R2 bucket CORS policy:
 
 **Note:** Cloudflare R2 requires explicit header names (wildcards like `["*"]` are not supported).
 
+## Related packages
+
+- [r2put](https://www.npmjs.com/package/r2put) - Cloudflare R2 upload CLI
+
 ## License
 
 MIT

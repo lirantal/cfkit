@@ -99,14 +99,14 @@ TRANSFER RATE: 842.4 MB/S                    EST. TIME: 4.2S
 production-v4     AES-256-GCM        WNAM (EDGE)
 
 ╔═══════════════════════════════════════════════════════════╗
-║                    UPLOAD COMPLETE                         ║
-║                                                             ║
-║  OBJECT PATH                                               ║
-║  production-v4/neural-net-weights.bin                      ║
-║                                                             ║
-║  PRESIGNED DOWNLOAD URL                                    ║
+║                      UPLOAD COMPLETE                      ║
+║                                                           ║
+║  OBJECT PATH                                              ║
+║  production-v4/neural-net-weights.bin                     ║
+║                                                           ║
+║  PRESIGNED DOWNLOAD URL                                   ║
 ║  https://...r2.cloudflarestorage.com/...                  ║
-║                                                             ║
+║                                                           ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
@@ -134,11 +134,9 @@ pnpm dev
 pnpm typecheck
 ```
 
-## Dependencies
+## Related
 
-- [@cfkit/r2](../r2) - Cloudflare R2 API wrapper
-- [ink](https://github.com/vadimdemedes/ink) - React for CLI
-- [ink-spinner](https://github.com/vadimdemedes/ink-spinner) - Spinner component
+- [@cfkit/r2](https://www.npmjs.com/package/@cfkit/r2) - Cloudflare R2 API wrapper
 
 ## License
 

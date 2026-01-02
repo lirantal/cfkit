@@ -33,6 +33,11 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lirantal/cfkit.git",
+    "directory": "packages/r2"
+  },
   "publishConfig": {
     "access": "public"
   },
