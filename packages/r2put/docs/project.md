@@ -146,16 +146,19 @@ Options:
 ### TUI Components
 
 #### Header
+
 - Displays "CLOUDFLARE R2" branding with letter spacing
 - Subtitle: "ULTRA-LOW LATENCY OBJECT STORAGE"
 - Cyan color theme
 
 #### FileInfo
+
 - Shows filename being uploaded
 - Displays formatted file size (B, KB, MB, GB)
 - Rounded border badge for size
 
 #### ProgressBar
+
 - 40-character wide progress bar
 - Filled (█) and empty (░) block characters
 - Animated spinner during upload (◐◓◑◒)
@@ -163,22 +166,26 @@ Options:
 - Percentage display
 
 #### Stats
+
 - Transfer rate in appropriate units (B/s to GB/s)
 - Estimated time remaining
 - Hidden after upload completes
 
 #### LogMessages
+
 - Timestamped entries [HH:MM:SS]
 - Typing animation for latest message
 - Prefix icons: › (info), ✔ (success), ✗ (error)
 - Bordered container
 
 #### Footer
+
 - Bucket name display
 - Encryption indicator (AES-256-GCM)
 - Region with EDGE suffix
 
 #### SuccessResult
+
 - Double-bordered green container
 - Object path (bucket/key)
 - Full presigned download URL
@@ -325,6 +332,7 @@ The CLI automatically detects content type based on file extension:
 ### Progress Simulation
 
 The current implementation simulates progress because:
+
 1. The underlying `fetch` API doesn't provide upload progress events
 2. Node.js `fetch` implementation lacks progress callbacks
 3. Future iterations could use `XMLHttpRequest` or streaming for real progress
@@ -332,6 +340,7 @@ The current implementation simulates progress because:
 ### File Reading Strategy
 
 Files are read entirely into memory before upload:
+
 - Simple implementation
 - Works for most file sizes
 - **Limitation**: Large files (>2GB) may cause memory issues
@@ -339,6 +348,7 @@ Files are read entirely into memory before upload:
 ### Presigned URL Expiration
 
 Download URLs expire after 1 hour (3600 seconds):
+
 - Reasonable default for immediate use
 - Could be made configurable in future versions
 
@@ -425,4 +435,3 @@ pnpm typecheck
 ## License
 
 MIT
-

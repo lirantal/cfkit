@@ -53,6 +53,7 @@ const bucket = r2.bucket('gallery')
 ```
 
 This design provides:
+
 - Clear separation of concerns
 - Easy testing (mock bucket instances)
 - Fluent API that reads naturally
@@ -75,6 +76,7 @@ const result = await bucket.presignedUploadUrl({
 ```
 
 **Features:**
+
 - Query string signing for URL-based authentication
 - Content type validation (supports wildcards)
 - File size validation (documentation only, not enforced by R2)
@@ -92,6 +94,7 @@ const result = await bucket.presignedDownloadUrl('file.jpg', {
 ```
 
 **Features:**
+
 - Query string signing
 - Configurable expiration (default: 1 hour)
 - No authentication required for end users
@@ -103,6 +106,7 @@ const exists = await bucket.exists()
 ```
 
 **Implementation Notes:**
+
 - Uses HEAD request to bucket root
 - May not be fully reliable with S3-compatible API
 - Consider using Cloudflare R2 REST API for production
@@ -114,6 +118,7 @@ const exists = await bucket.objectExists('file.jpg')
 ```
 
 **Implementation:**
+
 - Uses HEAD request to object
 - Returns boolean (true if 200 OK, false otherwise)
 
@@ -129,6 +134,7 @@ const result = await bucket.uploadFile('file.jpg', fileContent, {
 ```
 
 **Features:**
+
 - Supports Blob, File, ArrayBuffer, or string
 - Automatic content type handling
 - Metadata header support
@@ -141,6 +147,7 @@ await bucket.deleteObject('file.jpg')
 ```
 
 **Features:**
+
 - Silent success (404 is treated as success)
 - Throws on other errors
 
@@ -152,6 +159,7 @@ const blob = await obj.body.blob()
 ```
 
 **Features:**
+
 - Returns object metadata and Response body
 - Extracts custom metadata headers
 - Full access to object content
@@ -197,6 +205,7 @@ https://{accountId}.r2.cloudflarestorage.com/{bucket}/{key}
 ```
 
 The package constructs these URLs internally based on:
+
 - Account ID (from client config)
 - Bucket name (from bucket instance)
 - Object key (from operation parameters)
@@ -256,6 +265,7 @@ Potential additions (not in initial version):
 The package abstracts patterns from the existing backend implementation:
 
 **Before:**
+
 ```typescript
 const aws = new AwsClient({ ... })
 const url = `https://${accountId}.r2.cloudflarestorage.com/gallery/${key}`
@@ -263,6 +273,7 @@ const signed = await aws.sign(url, { method: 'PUT', ... })
 ```
 
 **After:**
+
 ```typescript
 const r2 = new R2Client({ ... })
 const bucket = r2.bucket('gallery')
@@ -278,6 +289,7 @@ const result = await bucket.presignedUploadUrl({ key, contentType, ... })
 ## Browser/Workers Compatibility
 
 The package is designed to work in:
+
 - ✅ Cloudflare Workers
 - ✅ Browser environments
 - ✅ Node.js (with fetch polyfill)
@@ -285,7 +297,7 @@ The package is designed to work in:
 - ✅ Bun
 
 All environments must support:
+
 - `fetch` API
 - `Blob` API
 - `crypto.subtle` (for aws4fetch)
-

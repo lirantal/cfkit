@@ -1,9 +1,32 @@
+# markdownlint configuration
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
 default: true
 
-# Line length - https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length
+# MD013 - Line length
 MD013:
-  code_blocks: false
+  line_length: 300
+  heading_line_length: 100
+  code_block_line_length: 300
   tables: false
 
-# Do not enforce line length in markdown files
-line_length: false
+# MD024 - Multiple headings with the same content
+MD024:
+  siblings_only: true
+
+# MD033 - Allow inline HTML
+MD033: false
+
+# MD041 - First line in file should be a top level heading
+MD041: false
+
+# MD046 - Code block style
+MD046:
+  style: fenced
+
+# MD048 - Code fence style
+MD048:
+  style: backtick
+
+# MD032 - Lists should be surrounded by blank lines
+MD032: false

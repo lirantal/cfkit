@@ -84,6 +84,7 @@ const buckets = await r2.listBuckets()
 ```
 
 **Returns:**
+
 ```typescript
 Array<{
   name: string
@@ -114,6 +115,7 @@ const result = await bucket.presignedUploadUrl({
 ```
 
 **Returns:**
+
 ```typescript
 {
   url: string              // Pre-signed URL
@@ -160,6 +162,7 @@ const info = await bucket.getInfo()
 ```
 
 **Returns:**
+
 ```typescript
 {
   name: string
@@ -184,12 +187,14 @@ const result = await bucket.uploadFile('file.jpg', file, {
 ```
 
 **Supported file types:**
+
 - `Blob`
 - `File`
 - `ArrayBuffer`
 - `string`
 
 **Returns:**
+
 ```typescript
 {
   key: string
@@ -342,6 +347,7 @@ import type {
 ## Environment Compatibility
 
 Works in:
+
 - ✅ Cloudflare Workers
 - ✅ Browser environments
 - ✅ Node.js (18+ with native fetch)
@@ -414,4 +420,3 @@ MIT
 ## Contributing
 
 Contributions welcome! Please open an issue or submit a pull request.
-
