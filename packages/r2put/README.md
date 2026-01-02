@@ -1,6 +1,24 @@
-# r2put
+<!-- markdownlint-disable -->
 
-A futuristic CLI tool for uploading files to Cloudflare R2 with animated progress bars and a polished terminal UI.
+<p align="center"><h1 align="center">
+  r2put
+</h1>
+
+<p align="center">
+  A futuristic CLI tool for uploading files to Cloudflare R2 with animated progress bars and a polished terminal UI.
+</p>
+
+<div align="center">
+    <img width="800" alt="Image" src="https://github.com/user-attachments/assets/ec824ebb-641e-4bcb-8b71-2f3819bb8518" />
+</div>
+
+<p align="center">
+  <a href="https://www.npmjs.org/package/r2put"><img src="https://badgen.net/npm/v/r2put" alt="npm version"/></a>
+  <a href="https://www.npmjs.org/package/r2put"><img src="https://badgen.net/npm/license/r2put" alt="license"/></a>
+  <a href="https://www.npmjs.org/package/r2put"><img src="https://badgen.net/npm/dt/r2put" alt="downloads"/></a>
+  <a href="https://github.com/lirantal/cfkit/actions/workflows/ci.yml"><img src="https://github.com/lirantal/cfkit/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <a href="https://snyk.io/test/github/lirantal/cfkit"><img src="https://snyk.io/test/github/lirantal/cfkit/badge.svg" alt="Known Vulnerabilities"/></a>
+</p>
 
 ## Features
 

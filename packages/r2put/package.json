@@ -28,8 +28,14 @@
     "cli",
     "upload"
   ],
-  "author": "",
+  "author": {
+    "name": "Liran Tal",
+    "email": "liran.tal@gmail.com",
+    "url": "https://github.com/lirantal"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/lirantal/cfkit/tree/main/packages/r2put",
+  "bugs": "https://github.com/lirantal/cfkit/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lirantal/cfkit.git",
