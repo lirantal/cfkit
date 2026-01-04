@@ -1,8 +1,8 @@
-# cfx-r2 Package Specification
+# @cfkit/r2 Package Specification
 
 ## Overview
 
-`cfx-r2` is a high-level TypeScript npm package that abstracts Cloudflare R2's S3-compatible APIs into a clean, class-based interface. The package wraps `aws4fetch` to provide Workers and browser-compatible APIs for pre-signed URL generation, bucket management, and object operations.
+`@cfkit/r2` is a high-level TypeScript npm package that abstracts Cloudflare R2's S3-compatible APIs into a clean, class-based interface. The package wraps `aws4fetch` to provide Workers and browser-compatible APIs for pre-signed URL generation, bucket management, and object operations.
 
 ## Design Goals
 

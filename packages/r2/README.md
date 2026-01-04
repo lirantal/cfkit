@@ -231,7 +231,7 @@ console.log(obj.metadata)      // Custom metadata
 ### Pre-signed Upload Flow
 
 ```typescript
-import { R2Client } from 'cfx-r2'
+import { R2Client } from '@cfkit/r2'
 
 const r2 = new R2Client({
   accountId: process.env.CLOUDFLARE_ACCOUNT_ID!,
@@ -341,7 +341,7 @@ import type {
   R2Object,
   BucketInfo,
   BucketDetails
-} from 'cfx-r2'
+} from '@cfkit/r2'
 ```
 
 ## Environment Compatibility
