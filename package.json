@@ -20,7 +20,7 @@
     "@changesets/cli": "latest",
     "markdownlint-cli": "^0.47.0",
     "prettier": "latest",
-    "rimraf": "^6.1.2",
+    "rimraf": "^6.1.3",
     "tsup": "^8.5.1",
     "turbo": "latest",
     "typescript": "latest"
