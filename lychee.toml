@@ -1,0 +1,9 @@
+[header]
+# Comma-separated list of accepted status codes for valid links.
+accept = ["200", "204", "206", "301", "302", "304"]
+
+# Exclude URLs from checking
+exclude = [
+  # npm.com returns 403 to automated link checkers
+  "https://www.npmjs.com/package/.*",
+]
