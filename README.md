@@ -134,7 +134,7 @@ TRANSFER RATE: 842.4 MB/S                    EST. TIME: 4.2S
 
 ## 🛠️ Development
 
-This monorepo uses [pnpm](https://pnpm.io/) and [Turborepo](https://turbo.build/) for efficient package management and builds.
+This monorepo uses [pnpm](https://pnpm.io/) and [Turborepo](https://turborepo.dev/) for efficient package management and builds.
 
 ### Prerequisites
 
