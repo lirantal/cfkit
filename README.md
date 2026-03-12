@@ -2,7 +2,8 @@
 
 <p align="center"><h1 align="center">
   ☁️ cfkit
-</h1>
+  </h1>
+</p>
 
 <p align="center">
   A modern toolkit for Cloudflare services — elegant APIs and powerful CLIs for the edge.
