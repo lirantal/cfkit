@@ -13,7 +13,7 @@ importers:
         version: 0.6.0
       '@changesets/cli':
         specifier: latest
-        version: 2.30.0(@types/node@25.3.5)
+        version: 2.30.0(@types/node@25.5.0)
       markdownlint-cli:
         specifier: ^0.48.0
         version: 0.48.0
@@ -28,7 +28,7 @@ importers:
         version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
       turbo:
         specifier: latest
-        version: 2.8.13
+        version: 2.8.16
       typescript:
         specifier: latest
         version: 5.9.3
@@ -40,8 +40,8 @@ importers:
         version: 1.0.20
     devDependencies:
       '@types/node':
-        specifier: ^25.3.5
-        version: 25.3.5
+        specifier: ^25.5.0
+        version: 25.5.0
       tsup:
         specifier: ^8.0.0
         version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
@@ -68,8 +68,8 @@ importers:
         version: 19.2.4
     devDependencies:
       '@types/node':
-        specifier: ^25.3.5
-        version: 25.3.5
+        specifier: ^25.5.0
+        version: 25.5.0
       '@types/react':
         specifier: ^19.2.14
         version: 19.2.14
@@ -475,8 +475,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@25.3.5':
-    resolution: {integrity: sha512-oX8xrhvpiyRCQkG1MFchB09f+cXftgIXb3a7UUa4Y3wpmZPw5tyZGTLWhlESOLq1Rq6oDlc8npVU2/9xiCuXMA==}
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
   '@types/react@19.2.14':
     resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
@@ -1390,38 +1390,38 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  turbo-darwin-64@2.8.13:
-    resolution: {integrity: sha512-PmOvodQNiOj77+Zwoqku70vwVjKzL34RTNxxoARjp5RU5FOj/CGiC6vcDQhNtFPUOWSAaogHF5qIka9TBhX4XA==}
+  turbo-darwin-64@2.8.16:
+    resolution: {integrity: sha512-KWa4hUMWrpADC6Q/wIHRkBLw6X6MV9nx6X7hSXbTrrMz0KdaKhmfudUZ3sS76bJFmgArBU25cSc0AUyyrswYxg==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.8.13:
-    resolution: {integrity: sha512-kI+anKcLIM4L8h+NsM7mtAUpElkCOxv5LgiQVQR8BASyDFfc8Efj5kCk3cqxuxOvIqx0sLfCX7atrHQ2kwuNJQ==}
+  turbo-darwin-arm64@2.8.16:
+    resolution: {integrity: sha512-NBgaqBDLQSZlJR4D5XCkQq6noaO0RvIgwm5eYFJYL3bH5dNu8o0UBpq7C5DYnQI8+ybyoHFjT5/icN4LeUYLow==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.8.13:
-    resolution: {integrity: sha512-j29KnQhHyzdzgCykBFeBqUPS4Wj7lWMnZ8CHqytlYDap4Jy70l4RNG46pOL9+lGu6DepK2s1rE86zQfo0IOdPw==}
+  turbo-linux-64@2.8.16:
+    resolution: {integrity: sha512-VYPdcCRevI9kR/hr1H1xwXy7QQt/jNKiim1e1mjANBXD2E9VZWMkIL74J1Huad5MbU3/jw7voHOqDPLJPC2p6w==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.8.13:
-    resolution: {integrity: sha512-OEl1YocXGZDRDh28doOUn49QwNe82kXljO1HXApjU0LapkDiGpfl3jkAlPKxEkGDSYWc8MH5Ll8S16Rf5tEBYg==}
+  turbo-linux-arm64@2.8.16:
+    resolution: {integrity: sha512-beq8tgUVI3uwkQkXJMiOr/hfxQRw54M3elpBwqgYFfemiK5LhCjjcwO0DkE8GZZfElBIlk+saMAQOZy3885wNQ==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.8.13:
-    resolution: {integrity: sha512-717bVk1+Pn2Jody7OmWludhEirEe0okoj1NpRbSm5kVZz/yNN/jfjbxWC6ilimXMz7xoMT3IDfQFJsFR3PMANA==}
+  turbo-windows-64@2.8.16:
+    resolution: {integrity: sha512-Ig7b46iUgiOIkea/D3Z7H+zNzvzSnIJcLYFpZLA0RxbUTrbLhv9qIPwv3pT9p/abmu0LXVKHxaOo+p26SuDhzw==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.8.13:
-    resolution: {integrity: sha512-R819HShLIT0Wj6zWVnIsYvSNtRNj1q9VIyaUz0P24SMcLCbQZIm1sV09F4SDbg+KCCumqD2lcaR2UViQ8SnUJA==}
+  turbo-windows-arm64@2.8.16:
+    resolution: {integrity: sha512-fOWjbEA2PiE2HEnFQrwNZKYEdjewyPc2no9GmrXklZnTCuMsxeCN39aVlKpKpim03Zq/ykIuvApGwq8ZbfS2Yw==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.8.13:
-    resolution: {integrity: sha512-nyM99hwFB9/DHaFyKEqatdayGjsMNYsQ/XBNO6MITc7roncZetKb97MpHxWf3uiU+LB9c9HUlU3Jp2Ixei2k1A==}
+  turbo@2.8.16:
+    resolution: {integrity: sha512-u6e9e3cTTpE2adQ1DYm3A3r8y3LAONEx1jYvJx6eIgSY4bMLxIxs0riWzI0Z/IK903ikiUzRPZ2c1Ph5lVLkhA==}
     hasBin: true
 
   type-fest@5.4.4:
@@ -1526,7 +1526,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@changesets/cli@2.30.0(@types/node@25.3.5)':
+  '@changesets/cli@2.30.0(@types/node@25.5.0)':
     dependencies:
       '@changesets/apply-release-plan': 7.1.0
       '@changesets/assemble-release-plan': 6.0.9
@@ -1542,7 +1542,7 @@ snapshots:
       '@changesets/should-skip-package': 0.1.2
       '@changesets/types': 6.1.0
       '@changesets/write': 0.4.0
-      '@inquirer/external-editor': 1.0.3(@types/node@25.3.5)
+      '@inquirer/external-editor': 1.0.3(@types/node@25.5.0)
       '@manypkg/get-packages': 1.1.3
       ansi-colors: 4.1.3
       enquirer: 2.4.1
@@ -1725,12 +1725,12 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
-  '@inquirer/external-editor@1.0.3(@types/node@25.3.5)':
+  '@inquirer/external-editor@1.0.3(@types/node@25.5.0)':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.1
     optionalDependencies:
-      '@types/node': 25.3.5
+      '@types/node': 25.5.0
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
@@ -1852,7 +1852,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@25.3.5':
+  '@types/node@25.5.0':
     dependencies:
       undici-types: 7.18.2
 
@@ -2820,32 +2820,32 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  turbo-darwin-64@2.8.13:
+  turbo-darwin-64@2.8.16:
     optional: true
 
-  turbo-darwin-arm64@2.8.13:
+  turbo-darwin-arm64@2.8.16:
     optional: true
 
-  turbo-linux-64@2.8.13:
+  turbo-linux-64@2.8.16:
     optional: true
 
-  turbo-linux-arm64@2.8.13:
+  turbo-linux-arm64@2.8.16:
     optional: true
 
-  turbo-windows-64@2.8.13:
+  turbo-windows-64@2.8.16:
     optional: true
 
-  turbo-windows-arm64@2.8.13:
+  turbo-windows-arm64@2.8.16:
     optional: true
 
-  turbo@2.8.13:
+  turbo@2.8.16:
     optionalDependencies:
-      turbo-darwin-64: 2.8.13
-      turbo-darwin-arm64: 2.8.13
-      turbo-linux-64: 2.8.13
-      turbo-linux-arm64: 2.8.13
-      turbo-windows-64: 2.8.13
-      turbo-windows-arm64: 2.8.13
+      turbo-darwin-64: 2.8.16
+      turbo-darwin-arm64: 2.8.16
+      turbo-linux-64: 2.8.16
+      turbo-linux-arm64: 2.8.16
+      turbo-windows-64: 2.8.16
+      turbo-windows-arm64: 2.8.16
 
   type-fest@5.4.4:
     dependencies:
