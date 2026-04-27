@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lirantal/cfkit/actions?workflow=CI"><img src="https://github.com/lirantal/cfkit/workflows/CI/badge.svg" alt="build"/></a>
+  <a href="https://github.com/lirantal/cfkit/actions/workflows/ci.yml"><img src="https://github.com/lirantal/cfkit/actions/workflows/ci.yml/badge.svg?branch=main" alt="build"/></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"/></a>
   <a href="https://github.com/lirantal/cfkit"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
 </p>
