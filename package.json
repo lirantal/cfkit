@@ -2,6 +2,7 @@
   "name": "cfkit",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@11.9.0",
   "license": "MIT",
   "scripts": {
     "build": "turbo run build",
@@ -30,6 +31,10 @@
     "node": ">=22.0.0"
   },
   "devEngines": {
-    "packageManager": { "name": "pnpm", "version": ">=11.0.0", "onFail": "download" }
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11.0.0",
+      "onFail": "download"
+    }
   }
 }
