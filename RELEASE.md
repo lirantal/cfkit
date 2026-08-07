@@ -5,7 +5,7 @@ This project uses [Changesets](https://github.com/changesets/changesets) for ver
 ## Release Flow
 
 1. Ensure all intended changes are merged and CI is green.
-2. Run `pnpm version` to apply Changesets version and changelog updates.
+2. Run `pnpm run version` to apply Changesets version and changelog updates.
 3. Review the generated package and changelog changes.
 4. Run the release command, if configured for the repository.
 
