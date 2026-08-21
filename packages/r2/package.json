@@ -52,9 +52,9 @@
     "aws4fetch": "^1.0.20"
   },
   "devDependencies": {
-    "@types/node": "^25.8.0",
+    "@types/node": "^26.1.1",
     "tsup": "^8.0.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "peerDependencies": {},
   "peerDependenciesMeta": {}
