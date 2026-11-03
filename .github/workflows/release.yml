@@ -38,6 +38,8 @@ jobs:
           cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Set up pinned npm
+        run: bash "${{ github.workspace }}/.github/scripts/setup-npm.sh"
       - name: Install dependencies
         run: pnpm install
 
@@ -53,5 +55,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
-          # Allow Changesets' internal npm calls to warn on pnpm-only devEngines instead of failing the release.
-          NPM_CONFIG_FORCE: true
