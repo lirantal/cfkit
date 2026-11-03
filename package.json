@@ -29,8 +29,5 @@
   "engines": {
     "pnpm": ">=11.0.0",
     "node": ">=22.0.0"
-  },
-  "devEngines": {
-    "packageManager": { "name": "pnpm", "version": ">=11.0.0", "onFail": "download" }
   }
 }
